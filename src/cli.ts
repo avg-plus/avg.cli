@@ -1,9 +1,11 @@
-import program from "commander";
+#!/usr/bin/env node
 
+import program from "commander";
 export default class CLI {
   public static init(argv: string[]) {
-    program.version("0.1.0");
-
+    program
+      .version("0.1.0")
+      console.log('11111')
     program
       .command("create <name>")
       .description("Create an AVGPlus project.")
@@ -14,8 +16,8 @@ export default class CLI {
     // More commands here
     // ...
 
-    program.parse(argv);
+    program.parse(argv)
   }
 }
 
-CLI.init(process.argv);
+CLI.init(process.argv)
