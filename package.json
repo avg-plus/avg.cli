@@ -9,7 +9,11 @@
   "dependencies": {
     "@types/commander": "^2.12.2",
     "@types/node": "^10.11.0",
-    "commander": "^2.18.0"
+    "commander": "^2.18.0",
+    "fs-extra": "^7.0.0",
+    "inquirer": "^6.2.0",
+    "live-server": "^1.2.0",
+    "validate-npm-package-name": "^3.0.0"
   },
   "bin": "dist/cli.js",
   "keywords": [],

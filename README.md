@@ -15,3 +15,7 @@ node dist/cli
 ```js
 node dist/cli create demo
 ```
+## Enable in global
+```
+npm link
+```
