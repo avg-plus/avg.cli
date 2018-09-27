@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "tsc -p tsconfig.json -w"
+  },
+  "dependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^10.11.0",
+    "commander": "^2.18.0"
+  }
+}
