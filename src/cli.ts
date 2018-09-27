@@ -2,12 +2,13 @@ import program from "commander";
 
 export default class CLI {
   public static init(argv: string[]) {
+    program.version("0.1.0");
+
     program
-      .version("0.1.0")
       .command("create <name>")
       .description("Create an AVGPlus project.")
       .action((name, options) => {
-        console.log("Creating project on current directory ...");
+        console.log(`Creating project '${name}' on current directory ${__dirname}`);
       });
 
     // More commands here
